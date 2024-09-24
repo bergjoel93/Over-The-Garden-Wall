@@ -4,6 +4,7 @@ export default function Trailer() {
     <div id="trailer-container">
       <iframe
         width="99%"
+        height="450"
         src="https://www.youtube.com/embed/oAQZB98wewY?si=dWWseKKSMTb66Vwu"
         title="YouTube video player"
         frameBorder="0"
