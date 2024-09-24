@@ -1,0 +1,38 @@
+#root-container {
+  position: relative;
+  min-height: 100vh; /* Ensures the content takes full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+#details {
+  flex-grow: 1; /* This will ensure that the main content takes up most of the space */
+}
+
+#options-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  padding: 10px;
+  background-color: #2c2a2a; /* Optional background color */
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for visual separation */
+}
+
+#options-container button {
+  margin: 0 10px; /* Adds space between the buttons */
+  padding: 10px 20px; /* Adjust button padding */
+  font-size: 20px; /* Optional for button size */
+}
+
+#options-container button:active {
+  background-color: #0056b3; /* Darker shade on tap */
+  transform: scale(0.95); /* Slight button shrink for tactile feel */
+}
+
+#options-container button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.6); /* Focus effect with a shadow */
+}
