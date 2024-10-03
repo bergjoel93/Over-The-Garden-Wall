@@ -34,7 +34,7 @@ export default function RSVP() {
             fontWeight: "bold",
           }}
         >
-          Send via Venmo
+          Venmo
         </a>
       </div>
     </div>

@@ -32,3 +32,7 @@ h2.header2,
 h3 {
   margin: 5px 0;
 }
+
+#address-container p {
+  margin-bottom: 80px;
+}

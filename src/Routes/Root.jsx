@@ -12,7 +12,7 @@ export default function Root() {
       <div id="options-container">
         <button onClick={() => navigate("/rsvp")}>RSVP</button>
         <button onClick={() => navigate("/trailer")}>Trailer</button>
-        <button onClick={() => navigate("/location")}>Location</button>
+        <button onClick={() => navigate("/information")}>Information</button>
       </div>
     </div>
   );

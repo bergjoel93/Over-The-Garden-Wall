@@ -4,30 +4,32 @@ import Typewriter from "typewriter-effect";
 
 export default function Start() {
   return (
-    <div id="overlay">
-      <div id="text-container">
-        <Typewriter
-          options={{ delay: 75 }}
-          onInit={(typewriter) => {
-            typewriter
-              .typeString(
-                "Welcome, we're so glad you're ready to join us.<br><br>"
-              )
-              .pauseFor(1000)
-              .typeString(
-                "Friday October Eleventh we will be screening the amazing Over the Garden Wall.<br><br>"
-              )
-              .pauseFor(1000)
-              .typeString(
-                "There will be food and drink and opportunities to contribute.<br><br>"
-              )
-              .pauseFor(1000)
-              .typeString(
-                "Please feel free to explore this site for more information."
-              )
-              .start();
-          }}
-        />
+    <div id="start-container">
+      <div id="overlay">
+        <div id="text-container">
+          <Typewriter
+            options={{ delay: 75 }}
+            onInit={(typewriter) => {
+              typewriter
+                .typeString(
+                  "Are you ready to join the Pottsfield Celebration? Into the Unknown?!<br><br>"
+                )
+                .pauseFor(1000)
+                .typeString(
+                  "Friday October Eleventh we will be screening the amazing Over the Garden Wall.<br><br>"
+                )
+                .pauseFor(1000)
+                .typeString(
+                  "There will be food and drink and opportunities to contribute.<br><br>"
+                )
+                .pauseFor(1000)
+                .typeString(
+                  "Please feel free to explore this site for more information."
+                )
+                .start();
+            }}
+          />
+        </div>
       </div>
     </div>
   );

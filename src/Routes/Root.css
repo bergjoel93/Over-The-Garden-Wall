@@ -16,15 +16,23 @@
   width: 100%;
   display: flex;
   justify-content: center; /* Center the buttons horizontally */
+  align-items: center;
   padding: 10px;
   background-color: #2c2a2a; /* Optional background color */
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for visual separation */
+  border-bottom: white solid 0.5px;
 }
 
 #options-container button {
   margin: 0 10px; /* Adds space between the buttons */
   padding: 10px 20px; /* Adjust button padding */
   font-size: 20px; /* Optional for button size */
+  text-align: center;
+}
+
+#options-container :nth-child(3),
+#options-container :nth-child(2) {
+  border-left: solid white 0.5px;
 }
 
 #options-container button:active {
