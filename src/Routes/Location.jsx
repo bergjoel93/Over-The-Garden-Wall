@@ -52,7 +52,7 @@ export default function Location() {
           🍪What to bring: A contribution and a blanket. The Movie Theater room
           is nice and chilled. 🥶
           <br /> <br />
-          🙏 A huge thank you to Kade Ryding for hosting us at the Post District
+          🙏 A huge thank you to Kade Riding for hosting us at the Post District
           Movie Theater Room! Please be respectful and clean up after yourself!
           ❤️❤️❤️
         </p>
