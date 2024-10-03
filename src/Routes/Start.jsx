@@ -16,7 +16,7 @@ export default function Start() {
                 )
                 .pauseFor(1000)
                 .typeString(
-                  "Friday October Eleventh we will be screening the amazing Over the Garden Wall.<br><br>"
+                  "Friday October 11th at 7PM we will be screening the amazing Over the Garden Wall."
                 )
                 .pauseFor(1000)
                 .typeString(

@@ -36,3 +36,7 @@ h3 {
 #address-container p {
   margin-bottom: 80px;
 }
+
+#address-container h2 {
+  font-size: 24px;
+}

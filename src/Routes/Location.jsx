@@ -37,6 +37,9 @@ export default function Location() {
       <div id="address-container">
         <h2>Instructions:</h2>
         <p>
+          🗓️ Event: Friday October 11th at 7PM.
+          <br />
+          <br />
           🚙 Park at the Traeger Grills Headquarters Parking Lot. The parking is
           free after 8PM.
           <br /> <br />
@@ -49,7 +52,7 @@ export default function Location() {
           🍪What to bring: A contribution and a blanket. The Movie Theater room
           is nice and chilled. 🥶
           <br /> <br />
-          🙏 A huge thank you to Kade Ryding for letting us the Post District
+          🙏 A huge thank you to Kade Ryding for hosting us at the Post District
           Movie Theater Room! Please be respectful and clean up after yourself!
           ❤️❤️❤️
         </p>
