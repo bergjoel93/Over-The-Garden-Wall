@@ -37,7 +37,7 @@ export default function Location() {
       <div id="address-container">
         <h2>Instructions:</h2>
         <p>
-          🗓️ Event: Friday October 11th at 7PM.
+          🗓️ Event: Friday October 11th. Mingle at 6PM. Show starts at 7PM.
           <br />
           <br />
           🚙 Park at the Traeger Grills Headquarters Parking Lot. The parking is
