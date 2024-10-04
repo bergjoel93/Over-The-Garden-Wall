@@ -24,7 +24,7 @@ export default function Start() {
                 )
                 .pauseFor(1000)
                 .typeString(
-                  "Please feel free to explore this site for more information."
+                  "Don't forget to RSVP from the bottom tab on the left! See Information tab for parking and location."
                 )
                 .start();
             }}
